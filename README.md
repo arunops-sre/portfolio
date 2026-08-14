@@ -16,7 +16,7 @@
 
 ## 👋 About Me
 
-Hi, I'm **Arun Gangadhar**, a Cloud DevOps Engineer / SRE with **5+ years of experience** working with AWS cloud infrastructure, Kubernetes, Infrastructure as Code, CI/CD, GitOps and observability.
+Hi, I'm **Arun Gangadhar**, a Cloud DevOps Engineer / SRE with **7+ years of experience** working with AWS cloud infrastructure, Kubernetes, Infrastructure as Code, CI/CD, GitOps and observability.
 
 I enjoy building reliable, scalable and automated cloud platforms.
 
