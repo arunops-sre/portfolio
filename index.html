@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Arun Gangadhar - Cloud DevOps Engineer and SRE portfolio. AWS, Kubernetes, Terraform, CI/CD, Observability, Python and AI Agents.">
+  <title>Arun Gangadhar | Cloud DevOps Engineer & SRE</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="logo" href="#home">AG<span>.</span></a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#youtube">YouTube</a>
+      <a href="#contact">Contact</a>
+    </nav>
+      <a class="resume-btn" href="Arun_CV.pdf" target="_blank">Resume ↗</a>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">CLOUD • DEVOPS • SRE • AIOPS</p>
+        <h1>Building reliable<br><span>cloud platforms.</span></h1>
+        <p class="lead">
+          I'm Arun Gangadhar, a Cloud DevOps Engineer / SRE focused on AWS,
+          Kubernetes, Terraform, CI/CD, observability, Python automation and AI-driven operations.
+        </p>
+        <div class="actions">
+          <a class="primary" href="#projects">View Projects</a>
+          <a class="secondary" href="https://github.com/arunops-sre" target="_blank">GitHub ↗</a>
+        </div>
+        <div class="stats">
+          <div><strong>7+</strong><span>Years Experience</span></div>
+          <div><strong>AWS</strong><span>Cloud & DevOps</span></div>
+          <div><strong>EKS</strong><span>Kubernetes</span></div>
+        </div>
+      </div>
+      <div class="terminal">
+        <div class="terminal-top"><i></i><i></i><i></i><span>arun@sre:~</span></div>
+        <pre><code>$ kubectl get nodes
+NAME              STATUS   ROLE
+eks-worker-01     Ready    worker
+eks-worker-02     Ready    worker
+
+$ terraform plan
+Plan: 12 to add, 0 to change, 0 to destroy
+
+$ python sre_agent.py
+✓ Observability connected
+✓ Incident analyzed
+✓ Remediation suggested
+
+<span class="cursor">▌</span></code></pre>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-label">01 / ABOUT</div>
+      <div class="two-col">
+        <div>
+          <h2>Cloud engineering with an <span>automation mindset.</span></h2>
+        </div>
+        <div>
+          <p>
+            I work across AWS cloud infrastructure, Kubernetes/EKS, infrastructure as code,
+            CI/CD, GitOps and production observability. My focus is making systems
+            repeatable, scalable and easier to operate.
+          </p>
+          <p>
+            I'm also expanding into Python automation and Agentic AI, with a goal of
+            combining SRE practices with intelligent troubleshooting and remediation.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section-label">02 / SKILLS</div>
+      <h2>Tools I work with</h2>
+      <div class="skill-grid">
+        <div class="skill"><b>AWS</b><span>EKS · IAM · VPC · S3 · ALB · CloudFront · CloudWatch</span></div>
+        <div class="skill"><b>Kubernetes</b><span>EKS · Helm · HPA · Ingress · RBAC · Troubleshooting</span></div>
+        <div class="skill"><b>Terraform</b><span>Modules · State · Remote Backend · Drift · AWS Provisioning</span></div>
+        <div class="skill"><b>CI/CD & GitOps</b><span>GitHub Actions · Jenkins · GitLab · Argo CD · Docker</span></div>
+        <div class="skill"><b>Observability</b><span>Prometheus · Grafana · CloudWatch · ELK · Datadog · OpenTelemetry</span></div>
+        <div class="skill"><b>Automation</b><span>Python · Boto3 · Shell · AWS automation · SRE tooling</span></div>
+        <div class="skill"><b>AI / AIOps</b><span>LLM APIs · Agentic AI · Tool calling · SRE automation</span></div>
+        <div class="skill"><b>Engineering</b><span>Git · Linux · Java/Maven · Networking · Incident Response</span></div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-label">03 / PROJECTS</div>
+      <h2>Selected work</h2>
+      <div class="project-grid">
+        <article class="project">
+          <div class="project-no">01</div>
+          <h3>EKS Platform & Operations</h3>
+          <p>Provisioned and managed EKS environments with Terraform, Helm and GitOps. Worked with cluster upgrades, workloads, networking and production troubleshooting.</p>
+          <div class="tags"><span>AWS</span><span>EKS</span><span>Terraform</span><span>Helm</span><span>Argo CD</span></div>
+        </article>
+        <article class="project">
+          <div class="project-no">02</div>
+          <h3>GitHub Actions → EKS with OIDC</h3>
+          <p>Designed CI/CD authentication using GitHub Actions OIDC and AWS IAM trust policies, avoiding long-lived cloud credentials.</p>
+          <div class="tags"><span>GitHub Actions</span><span>OIDC</span><span>IAM</span><span>EKS</span></div>
+        </article>
+        <article class="project">
+          <div class="project-no">03</div>
+          <h3>Production Observability</h3>
+          <p>Built monitoring and troubleshooting workflows using Prometheus, Grafana, exporters, CloudWatch and logs to improve incident visibility.</p>
+          <div class="tags"><span>Prometheus</span><span>Grafana</span><span>CloudWatch</span><span>SRE</span></div>
+        </article>
+        <article class="project">
+          <div class="project-no">04</div>
+          <h3>AI-Powered SRE Agent</h3>
+          <p>Learning and building toward an agent that can inspect Kubernetes incidents, analyze logs/events and recommend remediation steps.</p>
+          <div class="tags"><span>Python</span><span>AI Agents</span><span>Kubernetes</span><span>AIOps</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="section-label">04 / EXPERIENCE</div>
+      <div class="experience">
+        <div class="timeline">
+          <div class="timeline-item">
+            <span>Cloud DevOps / SRE</span>
+            <h3>Enterprise Cloud & Platform Engineering</h3>
+            <p>Working across AWS, EKS, Terraform, CI/CD, GitOps and production reliability. Creating reusable infrastructure and operational automation.</p>
+          </div>
+          <div class="timeline-item">
+            <span>Focus — 2026</span>
+            <h3>Python + Agentic AI for SRE</h3>
+            <p>Deepening Python automation and building practical AI-agent workflows for cloud operations, incident analysis and developer productivity.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="youtube" class="section youtube">
+      <div class="section-label">05 / YOUTUBE</div>
+      <div class="two-col">
+        <div>
+          <h2>Learn AWS, DevOps, SRE & <span>AI Agents.</span></h2>
+        </div>
+        <div>
+          <p>
+            I create practical technical content around AWS, Kubernetes, DevOps,
+            SRE, AIOps, Python automation and AI agents — with real-world scenarios and demos.
+          </p>
+          <a class="primary" href="https://www.youtube.com/@arunpalampalle/" target="_blank">Visit YouTube Channel ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="section-label">06 / CONTACT</div>
+      <h2>Let's build something reliable.</h2>
+      <p>Open to Cloud DevOps / SRE opportunities, technical collaborations and interesting platform engineering work.</p>
+      <div class="contact-links">
+        <a href="arunpalampalle@gmail.com">Email ↗</a>
+        <a href="www.linkedin.com/in/arunpalampalle" target="_blank">LinkedIn ↗</a>
+        <a href="https://github.com/arunops-sre" target="_blank">GitHub ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© 2026 Arun Gangadhar</span>
+    <span>Built for reliability • Powered by curiosity</span>
+  </footer>
+</body>
+</html>
